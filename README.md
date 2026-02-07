@@ -2,6 +2,14 @@
 
 This project estimates the speed of vehicles in a video using **YOLOv10** for object detection and **DeepSORT** for object tracking. It calculates speed based on pixel distance and perspective transformation, overlaying the results and bounding boxes on the output video.
 
+## Demo 
+<p align="center">
+  <img src="demo/car1.gif" alt="demo" width="45%">
+  <img src="demo/car2.gif" alt="blur" width="45%">
+</p>
+
+
+
 ## Features
 - **Object Detection:** Uses `yolov10n.pt` for fast and accurate detection.
 - **Object Tracking:** Implements DeepSORT to track vehicles across frames.
