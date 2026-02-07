@@ -20,14 +20,14 @@ This project estimates the speed of vehicles in a video using **YOLOv10** for ob
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/lovnishverma/vehicle-speed-estimation.git](https://github.com/lovnishverma/vehicle-speed-estimation.git)
+git clone https://github.com/lovnishverma/vehicle-speed-estimation.git
 cd vehicle-speed-estimation
 
 ```
 
 ### 2. Set up the Environment
 
-It is recommended to use a virtual environment to manage dependencies.
+It is recommended to use a virtual environment to manage dependencies. (conda is optional)
 
 **Windows:**
 
@@ -52,14 +52,14 @@ pip install -r requirements.txt
 
 ```
 
-### 4. Prepare Input Files
+### 4. Prepare Input Files (i have already placed in content folder you can skip this part)
 
 The script requires an input video. You can download the sample videos used in development or place your own video in a `content/` folder.
 
 ```bash
 mkdir content
 # Download sample highway footage
-wget -P content [https://github.com/AarohiSingla/Speed-detection-of-vehicles/raw/main/highway.mp4](https://github.com/AarohiSingla/Speed-detection-of-vehicles/raw/main/highway.mp4)
+wget -P content https://github.com/AarohiSingla/Speed-detection-of-vehicles/raw/main/highway.mp4
 
 ```
 
